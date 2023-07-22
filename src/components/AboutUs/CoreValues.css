@@ -1,0 +1,120 @@
+.about-buttons {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+  width: 100%;
+}
+
+.about-buttons button {
+  padding: 0.5rem 3rem;
+  font-size: 1.5rem;
+  color: #03435f;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #f5f5f5;
+  transition: background-color 0.3s ease;
+}
+
+.about-buttons button:hover {
+  background-color: #beb8b8;
+}
+
+.dropdown-content {
+  position: absolute;
+  margin-top: 15rem;
+  /* left: 50%; */
+  /* transform: translateX(-50%); */
+  display: none;
+}
+
+.show-dropdown {
+  display: block;
+}
+
+.dropdown-content-buttons {
+  width: 100%;
+  padding: 0;
+  font-size: 1rem;
+  color: #03435f;
+  cursor: pointer;
+  background-color: #f5f5f5;
+  transition: background-color 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown-content-buttons:hover {
+  background-color: #beb8b8;
+}
+
+.dropdown-content-buttons button {
+  width: 100%;
+  text-align: left;
+  font-size: small;
+}
+
+.modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 9999;
+}
+
+.modal {
+  width: 60%;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  position: relative;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1.2rem;
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.content {
+  padding: 1rem;
+}
+
+.vision,
+.mission,
+.philosophy,
+.brand,
+.brand-promise {
+  margin-bottom: 1rem;
+}
+
+.vision h2,
+.mission h2,
+.philosophy h2,
+.brand h2,
+.brand-promise h2 {
+  color: #03435f;
+}
+
+.vision p,
+.mission p,
+.philosophy p,
+.brand p,
+.brand-promise p {
+  line-height: 1.5;
+}
