@@ -1,0 +1,133 @@
+.carousel-container {
+  background-color: #f5f5f5;
+}
+
+.carousel-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 0;
+  margin-top: 3rem;
+}
+
+.carousel-card-container {
+  width: 374px;
+  height: 218px;
+  background: rgba(0, 0, 0, 0.04);
+  color: black;
+  transition: transform 0.3s ease-in-out;
+  padding: 2rem 1rem;
+  margin-left: 1rem;
+}
+
+.carousel-card-container center {
+  text-align: center;
+}
+
+.carousel-button {
+  position: relative;
+  background-color: whitesmoke;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.carousel-button:hover {
+  background-color: rgb(214, 207, 207);
+}
+
+.carousel-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.card-active {
+  transform: scale(1.1);
+}
+
+.about-us-header {
+  color: #03435f;
+  height: 48px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  margin-bottom: 1rem;
+  margin-top: -1rem;
+}
+
+.about-us-paragraph {
+  width: 416px;
+  height: 48px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #03435f;
+  margin-bottom: 1rem;
+}
+
+.carousel-cards {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 32px 40px;
+  gap: 24px;
+  color: #012a4a;
+  overflow: hidden;
+}
+
+.card-active {
+  transform: scale(1.1);
+  background-color: #dcdada; 
+}
+
+.p {
+  color: #212529;
+  border: 2px solid blue;
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+  .carousel-container {
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .carousel-card-container {
+    width: 90%;
+    margin: 1rem 0;
+  }
+
+  .carousel-button {
+    margin-top: 10px;
+  }
+
+  .about-us-header {
+    max-width: 80%;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.75rem;
+    line-height: 1.5;
+  }
+
+  .about-us-paragraph {
+    max-width: 75%;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-top: 1rem;
+  }
+}

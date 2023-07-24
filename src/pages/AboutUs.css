@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+.about-us-pages {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    overflow-x: hidden; 
+  }
+  

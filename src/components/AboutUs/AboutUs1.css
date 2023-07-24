@@ -1,0 +1,30 @@
+.about-us-1 {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  background: url('../../images/Building.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%; /* Change this from 'cover' to '100% 100%' */
+  background-position: center;
+}
+
+  .One-h1 {
+    font-size: 5rem;
+    font-weight: 400;
+    /* font-family: sans-serif; */
+    color: #03435f;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    /* text-align: center; */
+  }
+  
+  @media (max-width: 768px) {
+    .about-us-1 {
+      height: 60vh;
+    }
+    .One-h1 {
+        font-size: 1.5rem;
+      }
+  }
+  
