@@ -19,7 +19,7 @@ const Research: React.FC = () => {
   }, []);
 
   return (
-    <div className="wrapper">
+    <div>
     <ResearchNavBar />
       <div className="carousel">
                   <div className="row">
