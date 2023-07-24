@@ -1,0 +1,148 @@
+.testimony {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 0px;
+   
+  }
+
+  .wrapper {
+    height: 600px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    padding-top: 100px;
+    margin-top: 20px;
+  }
+  
+  .rowdown {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .slide-image {
+    height: 320px;
+    width: 43%; /* Adjust the width as needed to display the image on the right */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    border-radius: 5px;
+  }
+  
+  .slide-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .emp-head {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #164E35;
+    font-style: normal;
+    position: absolute;
+    top: 25px;
+  }
+
+  
+  
+  .emp-writeUp {
+        color: #636363;
+        font-size: 14px;
+        line-height: 28px;
+        font-weight: normal;
+        font-style: normal;
+        font-family: 'Poppins';
+        margin-top: 10%;
+  }
+  
+  strong {
+    font-weight: bold;
+    color: #636363;
+  }
+  
+  .mt-2 {
+    margin-top: 0px;
+    color: #636363;
+  }
+
+  .flower {
+    position: relative;
+    left: 1250px;
+    top: -250px
+  }
+  .flower img {
+    width: 200px;
+  }
+  
+
+  /* Your existing CSS styles for large screens */
+
+/* Mobile Responsive Styles */
+@media screen and (max-width: 768px) {
+    .testimony {
+      padding: 10px;
+    }
+  
+    .wrapper {
+      height: 750px;
+      padding-top: 50px;
+      margin-top: 10px;
+    }
+  
+    .rowdown {
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+
+    .rowdown p {
+        font-size: 16px;
+        text-align: justify;
+
+    }
+  
+    .slide-image {
+      width: 100%;
+      height: 300px;
+      margin-bottom: 10px;
+     
+    }
+  
+    .slide-content {
+      padding: 10px;
+    }
+  
+    .emp-head {
+      position: relative;
+      top: auto;
+      font-size: 18px;
+      text-align: left;
+    }
+  
+    .emp-writeUp {
+      margin-top: 0;
+      font-size: 12px;
+      line-height: 18px;
+    }
+  
+    .mt-2 {
+      margin-top: 5px;
+      font-size: 12px;
+    }
+  
+    .flower {
+      position: relative;
+      left: 300px;
+      top: -200px;
+      display: flex;
+    }
+  
+    .flower img {
+      width: 100px;
+    }
+  }
+  
