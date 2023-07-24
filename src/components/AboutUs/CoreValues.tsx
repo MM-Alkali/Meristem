@@ -215,57 +215,92 @@ const CoreValues = () => {
               )}
               {activeDropdown === 7 && (
                 <div className="subsidiary">
-                  <h2>MERISTEM WEALTH MANAGEMENT</h2>
+                  <h2>WEALTH MANAGEMENT LIMITED</h2>
+                  <h5>MERISTEM WEALTH MANAGEMENT</h5>
                   <p>
-                    Information about MERISTEM WEALTH MANAGEMENT goes here
+                    MWML is a licensed Asset/Wealth Management Company designed
+                    to help grow clients’ wealth with its myriad of innovative
+                    services and has grown consistently over the years and
+                    currently in excess of N285,000,000,000 assets under
+                    management as at 2020.
                   </p>
                 </div>
               )}
               {activeDropdown === 8 && (
                 <div className="subsidiary">
-                  <h2>MERISTEM SECURITIES TRADING</h2>
+                  <h2>STOCKBROKERS LIMITED</h2>
+                  <h5>MERISTEM SECURITIES TRADING</h5>
                   <p>
-                    Information about MERISTEM SECURITIES TRADING goes here
+                    Licensed by the Securities and Exchange Commission, MSBL
+                    offers Brokerage Services, Securities Dealing, Strategic
+                    Acquisitions and Investment Research. It also provides easy
+                    access to on-line brokerage account allowing clients monitor
+                    trades real-time via Meritrade.
                   </p>
                 </div>
               )}
               {activeDropdown === 9 && (
                 <div className="subsidiary">
-                  <h2>MERISTEM INVESTMENT BANKING</h2>
+                  <h2>CAPITAL LIMITED</h2>
+                  <h5>MERISTEM INVESTMENT BANKING</h5>
                   <p>
-                    Information about MERISTEM INVESTMENT BANKING goes here
+                    Meristem Capital Limited brings effective solutions tailored
+                    towards helping you achieve your strategic goals through
+                    Mergers & Acquisitions, Divestitures, Capital Raising and
+                    Financial Advisory.
                   </p>
                 </div>
               )}
               {activeDropdown === 10 && (
-                <div className="subsidiary">
-                  <h2>MERISTEM REGISTRAR SERVICES</h2>
+                <div className="subsidiary4">
+                  <h2>REGISTRARS AND PROBATE SERVICES LIMITED</h2>
+                  <h5>MERISTEM REGISTRAR SERVICES</h5>
                   <p>
-                    Information about MERISTEM REGISTRAR SERVICES goes here
+                    MRPSL offers first class services in administrating
+                    Shareholders Register, IPO & Bond Issues Services,
+                    Shareholder Relations and Probate Management. Because we
+                    operate an automated share registration service, we are able
+                    to offer our clients efficient and reliable services.
                   </p>
                 </div>
               )}
               {activeDropdown === 11 && (
                 <div className="subsidiary">
-                  <h2>MERISTEM TRUSTEE SERVICES</h2>
+                  <h2>TRUSTEES LIMITED</h2>
+                  <h5>MERISTEM TRUSTEE SERVICES</h5>
                   <p>
-                    Information about MERISTEM TRUSTEE SERVICES goes here
+                    Meristem Trustees Limited constantly provides best in class
+                    Trust Services such as Bonds & Debenture Trusteeship, Trusts
+                    of Securitization, Endowment Scheme Management, Employee
+                    Benefits Scheme, Private Trusts to Institutions, States and
+                    Individuals.
                   </p>
                 </div>
               )}
               {activeDropdown === 12 && (
                 <div className="subsidiary">
-                  <h2>MERISTEM LOANS AND LEASING</h2>
+                  <h2>FINANCE LIMITED</h2>
+                  <h5>MERISTEM LOANS AND LEASING</h5>
                   <p>
-                    Information about MERISTEM LOANS AND LEASING goes here
+                    Meristem Finance Limited is the finance house of the
+                    Meristem group. It is a non-banking financial institution
+                    and equipment leasing firm licensed by the Central Bank of
+                    Nigeria. MFL provides Financial Services, Leases and Loans
+                    at competitive rates.
                   </p>
                 </div>
               )}
               {activeDropdown === 13 && (
                 <div className="subsidiary">
-                  <h2>Another Subsidiary</h2>
+                  <h2>FAMILY SERVICES</h2>
+                  <h5>MERISTEM FAMILY SERVICES</h5>
                   <p>
-                    Information about another subsidiary goes here
+                    MERISTEM SECURITIES TRADING Licensed by the Securities and
+                    Exchange Commission, MSBL offers Brokerage Services,
+                    Securities Dealing, Strategic Acquisitions and Investment
+                    Research. It also provides easy access to on-line brokerage
+                    account allowing clients monitor trades real-time via
+                    Meritrade.
                   </p>
                 </div>
               )}

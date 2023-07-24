@@ -2,21 +2,11 @@
 import "./AboutUs2.css";
 
 const AboutUs = () => {
-  // const handleButtonClick = (componentId: any) => {
-  //   const component = document.getElementById(componentId);
-  //   if (component) {
-  //     window.scrollTo({
-  //       top: component.offsetTop,
-  //       behavior: 'smooth',
-  //     });
-  //   }
-  // };
-
   return (
-<div className="about-us-2">
-
-      <div className="content">
+    <div className="about-us-2">
+      <div className="history">
         <div className="info">
+          <h1 className="two-h1">About Us</h1>
           <p>
             For over 20 years, we have innovated, grown and attained the status
             of the preferred financial services provider for individuals and
@@ -47,7 +37,9 @@ const AboutUs = () => {
               title="YouTube Video"
             ></iframe>
           </div>
-          <h3 className="two-h3">"The CEPOEM ideology defines our very existence."</h3>
+          <h3 className="two-h3">
+            "The CEPOEM ideology defines our very existence."
+          </h3>
         </div>
       </div>
     </div>

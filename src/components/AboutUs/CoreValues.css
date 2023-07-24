@@ -86,7 +86,7 @@
 }
 
 .modal {
-  width: 25%;
+  width: 35%;
   max-height: 80%;
   overflow-y: auto;
   background-color: #fff;
@@ -111,8 +111,8 @@
 }
 
 .close-button button:hover {
-    background: none;
-    color: red;
+  background: none;
+  color: red;
 }
 
 .content {
@@ -120,30 +120,25 @@
   margin-top: -1rem;
 }
 
-.bold {
-  font-weight: bolder;  
-}
-
-.vision,
-.mission,
-.philosophy,
-.brand,
-.brand-promise {
-  margin-bottom: 1rem;
-}
-
-.vision h2,
-.mission h2,
-.philosophy h2,
-.brand h2,
-.brand-promise h2 {
+.content h2 {
   color: #03435f;
+  font-size: 1.5rem;
 }
 
-.vision p,
-.mission p,
-.philosophy p,
-.brand p,
-.brand-promise p {
+.subsidiary4 h2 {
+  color: #03435f;
+  font-size: 1.2rem;
+}
+
+.content h5 {
+  font-size: 1rem;
+  margin-bottom: -0.5rem;
+}
+
+.content p {
   line-height: 1.5;
+}
+
+.bold {
+  font-weight: bolder;
 }
